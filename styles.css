@@ -1,0 +1,52 @@
+body{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.content{
+    display: block;
+    padding: 1em;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid rgb(65, 65, 65);
+}
+
+.inputs{
+    padding: 20px;
+    width: auto;
+    height: 30px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#results{
+    display: block;
+    padding: 20px;
+    width: auto;
+    height: 100px;
+    background-color: red;
+}
+
+.buttons{
+    background-color: rgb(58, 72, 197);
+    border-radius:5px;
+    outline: none;
+    color: white;
+    padding: 5px;
+    text-decoration: dashed;
+}
+
+ul li {
+    color: rgb(79, 93, 224);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    outline: none;
+    list-style: none;
+}
+
