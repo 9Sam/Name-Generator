@@ -1,23 +1,3 @@
-// function names(len, results){
-//     let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-//     let array = [];
-//     let allResults = [];
-
-//     for(let i=0; i < results; i++){
-//         for(let j = 0; j < len ; j++){
-//             array.push(letters[Math.round(Math.random() * letters.length)]);
-//         }
-//         allResults.push(
-//             array.toString().split(",").join("").toUpperCase()
-//             )
-
-//         array = []
-//     }
-//     console.log(allResults)
-// }
-
-// names(5, 100)
-
 function namesVocals(len, results){
     let consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
     let vocals = ['a','e','i','o','u'];

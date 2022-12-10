@@ -6,21 +6,24 @@ body{
 
 .content{
     display: block;
-    padding: 1em;
     margin: auto;
     border-radius: 5px;
     text-align: center;
     background-color: black;
     border: 1px solid rgb(65, 65, 65);
+    height: auto;
 }
 
 .inputs{
+    display: block;
     padding: 20px;
     width: auto;
-    height: 30px;
+    height: auto;
 }
 
 input{
+    display: inline-block;
+    margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -29,16 +32,18 @@ input{
     display: block;
     padding: 20px;
     width: auto;
-    height: 100px;
+    height: 200px;
     background-color: red;
 }
 
 .buttons{
+    display: inline-block;
     background-color: rgb(58, 72, 197);
     border-radius:5px;
     outline: none;
     color: white;
     padding: 5px;
+    margin: 10px;
     text-decoration: dashed;
 }
 
